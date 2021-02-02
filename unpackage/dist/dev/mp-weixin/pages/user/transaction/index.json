@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-tag": "/components/uni-tag/uni-tag",
+    "home-navbar": "/components/home/home_navbar",
+    "user-detaild": "/components/user/user_detailed"
+  }
+}

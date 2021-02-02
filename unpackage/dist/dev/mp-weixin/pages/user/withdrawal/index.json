@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "home-navbar": "/components/home/home_navbar"
+  }
+}

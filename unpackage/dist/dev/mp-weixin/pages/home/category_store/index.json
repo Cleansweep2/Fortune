@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "home-navbar": "/components/home/home_navbar",
+    "home-shop": "/components/home/home_shop",
+    "go-top": "/components/go-top"
+  }
+}

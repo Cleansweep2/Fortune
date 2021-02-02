@@ -1,0 +1,1 @@
+<view class="no_login data-v-07fe7a18"><view class="left data-v-07fe7a18"><image src="/static/images/home/determine.png" class="data-v-07fe7a18"></image><view class="data-v-07fe7a18">马上登陆,开启你的购物体验</view></view><image src="/static/images/home/yijian_login.png" data-event-opts="{{[['tap',[['login',['$event']]]]]}}" bindtap="__e" class="data-v-07fe7a18"></image></view>

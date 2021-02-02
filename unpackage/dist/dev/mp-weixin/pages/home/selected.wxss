@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/*字体*/
+@font-face {
+  font-family: "iconfont";
+  src: url("//at.alicdn.com/t/font_2155281_0in0c1pah5yl.eot?t=1605237323360");
+  /* IE9 */
+  src: url("//at.alicdn.com/t/font_2155281_0in0c1pah5yl.eot?t=1605237323360#iefix") format("embedded-opentype"), url("data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO0AAsAAAAACAAAAANnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqDGIJ1ATYCJAMUCwwABCAFhG0HTxsIBxEVnKfIfiQYN41npWqRlPdhTdBI+iYI+LzPeUg2K6jtkVZ+Ifu0SYCAuMU1G2AnJ0zU5JGcRf/kC0nhOM2TAofjHn0M7yzL5dxn9+qnABPMsv+xDxJwgSTqLcNrXQoHfRoC8CCGLETZZ9W6WGjIJAGIrrFDK6yMDd1QLrAQmBUrNWI6BpacIC8D04Lvi08UEhZIDAU5q2b7cm0p+Va8vaFsx6apsrGn8wDyOlBAFqBB9K70dUVFiSwUHmZ/TUnAAwuJnKqbelv37Q3HQaI6kMGD/uGBRKDQIExIqRcAJXFSw1vBhZDwVmkp6uuCFtDfAMWHOckAwAMwgT7ARoSWhFcg8Xv4+8eacV5DsO1se8Oe1A7zXCHt505cb7dxiTWTQgcsckWItbuD+s62e4jV68Okn5v3uk2RYuHGFK+J6zHtDZ7+kzYJlZ01pH7PXg3aD6p/qvA9V/27dxl7Yt3bt9l2vTt3+kxqcK9OvTmTNi3sXum5d69BMfv2bZ9ZQZNm0exvGV+n++w64Ksd9xEFGd/SKXYefDOdqlW+Z37Hd3lB1apO1qJ/tHxibktL2wb9MJ+0fBP6LWR2aAEXB73emE8oPCqhYbMYh85qWff8RkqULPXi/OypCfUOsdVxtQeNqJFQK3FP7cTqCYNHxNWuUNeK3dUTa4NY26VUdM2XF+ZHl48s1XuJuvlYrVVrPNsSlbDWqLWHMRAAZ6b8r4YFjq2FsgOqKqlxZQ3D/+RvaK7vd2rhW/SPddIAPLodWQUrh8l+h57O8v9WoQHH0SlKYje0UctlRsAgbwKdNLUethESCuDpNIbgzjEQWBm5DIkb0VBYJBE0JQsGnhSBiUUJeJBJhfWeBNIbhdDuQAZjEAR+bIPEh2NQ+HGFoClPYBDCF5j4CQWI8tV5x5NLndSNUQs6MP8Q7TgQc4oKy9/Qf3ea08qA84WcYxjqosqnXzggTzEn//hGhIB47OGJzsOuG2HiMaGVIohM17KkqhcVduwXyg1DmkAOMP6ByBoNyGsvVOHzb5D3raNxQ11T9AtiWewc1ApVB8JLN3Squ5VLsh9eQwgCCBv1wBN5UEcTIzBVD0uQJQphQGxyVeJW1FVXLG/oX6BUboIcaSSFEloYwmR/1EOKw84E/bfhO2ZUpAfvdJnXLxYA") format("woff2"), url("//at.alicdn.com/t/font_2155281_0in0c1pah5yl.woff?t=1605237323360") format("woff"), url("//at.alicdn.com/t/font_2155281_0in0c1pah5yl.ttf?t=1605237323360") format("truetype"), url("//at.alicdn.com/t/font_2155281_0in0c1pah5yl.svg?t=1605237323360#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+.iconfont.data-v-3c5a28a2 {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-qianjin.data-v-3c5a28a2:before {
+  content: "\e603";
+}
+.icon-bianji.data-v-3c5a28a2:before {
+  content: "\e601";
+}
+.icon-huise.data-v-3c5a28a2:before {
+  content: "\e654";
+}
+.icon-fangdajing.data-v-3c5a28a2:before {
+  content: "\e6d1";
+}
+/* 颜色变量 */
+view.data-v-3c5a28a2, image.data-v-3c5a28a2, swiper.data-v-3c5a28a2, swiper-item.data-v-3c5a28a2, text.data-v-3c5a28a2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.swiper.data-v-3c5a28a2 {
+  height: 310rpx;
+}
+.swiper .swiper-item.data-v-3c5a28a2 {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.swiper .swiper-item .swiper_in.data-v-3c5a28a2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.swiper .swiper-item .swiper_in .img.data-v-3c5a28a2 {
+  width: 680rpx;
+  height: 310rpx;
+  background: #007AFF;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+}
+.swiper .swiper-item .swiper_in image.data-v-3c5a28a2 {
+  width: 680rpx;
+  height: 310rpx;
+}
+.fali_row.data-v-3c5a28a2 {
+  padding: 0 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 61rpx;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.fali_row .fali_item.data-v-3c5a28a2 {
+  width: 25%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 24rpx;
+}
+.fali_row .fali_item.data-v-3c5a28a2:nth-last-of-type(1) {
+  padding-right: 0;
+}
+.fali_row .fali_item.data-v-3c5a28a2:nth-last-of-type(4) {
+  padding-left: 0;
+}
+.fali_row .fali_item view.data-v-3c5a28a2 {
+  padding-top: 19rpx;
+  color: #151515;
+}
+.fali_row .fali_item image.data-v-3c5a28a2 {
+  width: 48rpx;
+  height: 48rpx;
+}
+.taps.data-v-3c5a28a2 {
+  margin-top: 35rpx;
+  padding: 0 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding-bottom: 21rpx;
+}
+.taps .left.data-v-3c5a28a2 {
+  background-color: #FFC6C8;
+  width: 258rpx;
+  height: 275rpx;
+  -webkit-border-radius: 20.4rpx;
+          border-radius: 20.4rpx;
+  position: relative;
+}
+.taps .left .text.data-v-3c5a28a2 {
+  position: absolute;
+  top: 30rpx;
+  left: 19rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.taps .left .text text.data-v-3c5a28a2:nth-last-of-type(1) {
+  font-size: 30rpx;
+  color: #151515;
+}
+.taps .left .text text.data-v-3c5a28a2:nth-of-type(2) {
+  margin-top: 20rpx;
+  font-size: 18rpx;
+  color: #151515;
+}
+.taps .left image.data-v-3c5a28a2 {
+  position: absolute;
+  width: 140rpx;
+  height: 190rpx;
+  top: 79rpx;
+  right: 4rpx;
+}
+.taps .right.data-v-3c5a28a2 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding-left: 19rpx;
+}
+.taps .right .top.data-v-3c5a28a2,
+.taps .right .bottom.data-v-3c5a28a2 {
+  width: 427rpx;
+  height: 130rpx;
+  position: relative;
+}
+.taps .right .top:nth-of-type(1) image.data-v-3c5a28a2,
+.taps .right .bottom:nth-of-type(1) image.data-v-3c5a28a2 {
+  width: 120rpx;
+  height: 85rpx;
+  position: absolute;
+  top: 23rpx;
+  right: 28rpx;
+}
+.taps .right .top:nth-of-type(2) image.data-v-3c5a28a2,
+.taps .right .bottom:nth-of-type(2) image.data-v-3c5a28a2 {
+  width: 108rpx;
+  height: 122rpx;
+  position: absolute;
+  top: 1rpx;
+  right: 25rpx;
+}
+.taps .right .text.data-v-3c5a28a2 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  left: 24rpx;
+  top: 30rpx;
+}
+.taps .right .text text.data-v-3c5a28a2:nth-of-type(1) {
+  color: #151515;
+  font-size: 30rpx;
+}
+.taps .right .text text.data-v-3c5a28a2:nth-of-type(2) {
+  margin-top: 19rpx;
+  color: #151515;
+  font-size: 18rpx;
+}
+.taps .right .top.data-v-3c5a28a2 {
+  background-color: #C6F0FF;
+  -webkit-border-radius: 20.4rpx;
+          border-radius: 20.4rpx;
+}
+.taps .right .bottom.data-v-3c5a28a2 {
+  -webkit-border-radius: 20.4rpx;
+          border-radius: 20.4rpx;
+  background-color: #FFDEA3;
+  margin-top: 14rpx;
+}
+.like_line.data-v-3c5a28a2 {
+  padding-top: 21rpx;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  background-color: #DCDCDC;
+}
+.like_line .like_line_text.data-v-3c5a28a2 {
+  font-size: 24rpx;
+  color: #F43A3A;
+  position: relative;
+}
+.like_line .like_line_text.data-v-3c5a28a2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 153rpx;
+  left: 126rpx;
+  top: 12rpx;
+  border-bottom: 5rpx solid #F43A3A;
+}
+.like_line .like_line_text.data-v-3c5a28a2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 153rpx;
+  top: 12rpx;
+  right: 126rpx;
+  border-bottom: 5rpx solid #F43A3A;
+}
+

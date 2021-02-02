@@ -1,0 +1,177 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/home/category/index",
+			"style": {}
+		},{
+			"path": "pages/home/platform/index",
+			"style": {}
+		}, {
+			"path": "pages/home/cetegorys/index",
+			"style": {}
+		}, {
+			"path": "pages/shop_street/index",
+			"style": {}
+		}, {
+			"path": "pages/login/index",
+			"style": {}
+		}, {
+			"path": "pages/register/index",
+			"style": {}
+		}, {
+			"path": "pages/find_pwd/index",
+			"style": {}
+		}, {
+			"path": "pages/user/index",
+			"style": {}
+		}, {
+			"path": "pages/user/statistics/index",
+			"style": {}
+		}, {
+			"path": "pages/user/withdrawal/index",
+			"style": {}
+		}, {
+			"path": "pages/user/business/index",
+			"style": {}
+		}, {
+			"path": "pages/user/transaction/index",
+			"style": {}
+		}, {
+			"path": "pages/user/tesco/index",
+			"style": {}
+		}, {
+			"path": "pages/user/user_info/index",
+			"style": {}
+		}, {
+			"path": "pages/user/edit/index",
+			"style": {}
+		}, {
+			"path": "pages/user/exclusive/index",
+			"style": {}
+		}, {
+			"path": "pages/user/declaration/index",
+			"style": {}
+		}, {
+			"path": "pages/user/real_name/index",
+			"style": {}
+		}, {
+			"path": "pages/user/order_detaild/index",
+			"style": {}
+		}, {
+			"path": "pages/user/transaction_shop/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/self_support/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/user/recharge_detail/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/recharge/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/goods_admin/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/add_goods/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shop_street/map_address/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/category_store/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/user/real_name_shop/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#F43A3A",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/index",
+			"iconPath": "static/images/navbar/home.png",
+			"selectedIconPath": "static/images/navbar/home_active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/self_support/index",
+			"iconPath": "static/images/navbar/bao.png",
+			"selectedIconPath": "static/images/navbar/bao_active.png",
+			"text": "自营商品"
+		}, {
+			"pagePath": "pages/shop_street/index",
+			"iconPath": "static/images/navbar/goods.png",
+			"selectedIconPath": "static/images/navbar/goods_active.png",
+			"text": "店铺街"
+		}, {
+			"pagePath": "pages/user/index",
+			"iconPath": "static/images/navbar/my.png",
+			"selectedIconPath": "static/images/navbar/my_active.png",
+			"text": "我的"
+		}]
+	}
+}

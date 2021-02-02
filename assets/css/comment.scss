@@ -1,0 +1,21 @@
+uni-page-body,page{
+	height: 100%;
+	width: 100%;
+}
+
+.uni-swiper .uni-swiper-dots {
+    bottom: -20rpx !important;
+		z-index:1000;
+}
+   
+*{
+	margin:0;
+	padding: 0;     
+}
+
+.slh{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 100%;
+	white-space: nowrap;
+}

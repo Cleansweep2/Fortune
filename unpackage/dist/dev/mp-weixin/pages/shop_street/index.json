@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-tabs": "/components/uni-tabs/uni-tabs",
+    "home-shop": "/components/home/home_shop",
+    "go-top": "/components/go-top"
+  }
+}

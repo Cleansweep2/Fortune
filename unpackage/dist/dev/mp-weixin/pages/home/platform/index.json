@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "uni-tabs": "/components/uni-tabs/uni-tabs",
+    "home-navbar": "/components/home/home_navbar",
+    "uni-hot": "/components/uni-hot",
+    "home-shop": "/components/home/home_shop",
+    "go-top": "/components/go-top"
+  }
+}

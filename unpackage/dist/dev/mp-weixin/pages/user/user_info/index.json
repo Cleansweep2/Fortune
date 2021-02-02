@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "home-navbar": "/components/home/home_navbar",
+    "ming-pop": "/components/ming-pop/ming-pop"
+  }
+}

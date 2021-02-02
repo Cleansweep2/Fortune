@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/home/category/index",
+    "pages/home/platform/index",
+    "pages/home/cetegorys/index",
+    "pages/shop_street/index",
+    "pages/login/index",
+    "pages/register/index",
+    "pages/find_pwd/index",
+    "pages/user/index",
+    "pages/user/statistics/index",
+    "pages/user/withdrawal/index",
+    "pages/user/business/index",
+    "pages/user/transaction/index",
+    "pages/user/tesco/index",
+    "pages/user/user_info/index",
+    "pages/user/edit/index",
+    "pages/user/exclusive/index",
+    "pages/user/declaration/index",
+    "pages/user/real_name/index",
+    "pages/user/order_detaild/index",
+    "pages/user/transaction_shop/index",
+    "pages/self_support/index",
+    "pages/user/recharge_detail/index",
+    "pages/user/recharge/index",
+    "pages/user/goods_admin/index",
+    "pages/user/add_goods/index",
+    "pages/shop_street/map_address/index",
+    "pages/home/category_store/index",
+    "pages/user/real_name_shop/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#F43A3A",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/images/navbar/home.png",
+        "selectedIconPath": "static/images/navbar/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/self_support/index",
+        "iconPath": "static/images/navbar/bao.png",
+        "selectedIconPath": "static/images/navbar/bao_active.png",
+        "text": "自营商品"
+      },
+      {
+        "pagePath": "pages/shop_street/index",
+        "iconPath": "static/images/navbar/goods.png",
+        "selectedIconPath": "static/images/navbar/goods_active.png",
+        "text": "店铺街"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/images/navbar/my.png",
+        "selectedIconPath": "static/images/navbar/my_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap29.json"
+}

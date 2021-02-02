@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-hot": "/components/uni-hot",
+    "home-navbar": "/components/home/home_navbar",
+    "go-top": "/components/go-top"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker",
+    "home-navbar": "/components/home/home_navbar",
+    "user-detaild": "/components/user/user_detailed",
+    "ming-pop": "/components/ming-pop/ming-pop"
+  }
+}

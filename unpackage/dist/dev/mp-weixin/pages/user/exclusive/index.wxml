@@ -1,0 +1,1 @@
+<view data-ref="exclusive" class="exclusive data-v-086c5d56 vue-ref"><home-navbar vue-id="051fce70-1" title="专属客服" data-ref="home_nav" class="data-v-086c5d56 vue-ref" bind:__l="__l"></home-navbar><image src="/static/images/user/exclusive/bgc.png" data-ref="img" class="data-v-086c5d56 vue-ref"></image></view>

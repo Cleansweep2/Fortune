@@ -1,0 +1,1 @@
+<view class="register data-v-2e7d9033"><home-navbar vue-id="bd96119a-1" title="找回密码" class="data-v-2e7d9033" bind:__l="__l"></home-navbar><image src="/static/images/user/exclusive/bgc.png" data-ref="img" class="data-v-2e7d9033 vue-ref"></image></view>

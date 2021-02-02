@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "uni-tabs": "/components/uni-tabs/uni-tabs",
+    "selected": "/pages/home/selected",
+    "category-page": "/pages/home/category_page",
+    "no-login": "/components/no-login",
+    "go-top": "/components/go-top"
+  }
+}

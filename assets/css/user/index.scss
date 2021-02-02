@@ -1,0 +1,283 @@
+.user {
+		height: 100vh;
+		background-color: #E7E7E7;
+		overflow-y: auto;
+	}
+
+	.user_info_box {
+		position: relative;
+
+		.user_bgc {
+			height: 382rpx;
+			width: 100%;
+
+			image {
+				height: 100%;
+				width: 100%;
+			}
+		}
+
+		.user_info {
+			position: absolute;
+			transform: translate(-50%);
+			left: 50%;
+			top: 62rpx;
+
+			.avatar {
+				display: flex;
+				justify-content: center;
+
+				image {
+					width: 110rpx;
+					height: 110rpx;
+					border-radius: 50%;
+				}
+			}
+
+			.bottom {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				text-align: center;
+
+				.nick_name {
+					padding-top: 14rpx;
+					color: #333333;
+					font-size: 34rpx;
+				}
+
+				.member_box {
+					justify-content: center;
+					display: flex;
+				}
+
+				.member {
+					margin-top: 16rpx;
+					width: 142rpx;
+					height: 24rpx;
+					font-size: 20rpx;
+					color: #fff;
+					background-color: #FE110D;
+					text-align: center;
+					line-height: 24rpx;
+					border-radius: 5rpx;
+				}
+
+				.member_num {
+					padding-top: 30rpx;
+					color: #666666;
+					font-size: 30rpx;
+
+					text {
+						padding-left: 10rpx;
+					}
+				}
+			}
+		}
+	}
+
+	.img_box {
+		width: 100vw;
+		height: 260rpx;
+		position: absolute;
+		top: 300rpx;
+
+		image {
+			width: 100%;
+			height: 260rpx;
+		}
+	}
+
+	.row {
+		position: absolute;
+		top: 420rpx;
+		width: 100%;
+		padding: 0 82rpx;
+
+		.row_in {
+			display: flex;
+			justify-content: space-between;
+
+			.row_item {
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				align-items: center;
+				color: #333333;
+				font-size: 24rpx;
+			}
+
+			image {
+				width: 53rpx;
+				height: 54rpx;
+				margin-bottom: 26rpx;
+			}
+		}
+	}
+
+	.money_box {
+		margin-top: 192rpx;
+		padding: 10rpx 50rpx;
+		background-color: #fff;
+		left: 0;
+		border-radius: 10rpx;
+
+		.money {
+			width: 100%;
+			height: 362rpx;
+			position: relative;
+
+			image {
+				width: 100%;
+				height: 100%;
+				border-radius: 10rpx;
+			}
+
+			.money_info {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+				padding-top: 42rpx;
+				padding-bottom: 43rpx;
+
+				.top {
+					display: flex;
+					justify-content: space-between;
+					padding: 0 56rpx 20rpx 60rpx;
+
+					.left {
+						.left_1 {
+							font-style: PingFang-SC-Bold;
+							color: #666666;
+							font-size: 24rpx;
+						}
+
+						.left_2 {
+							margin-top: 20rpx;
+							color: #FF0000;
+							font-size: 36rpx;
+						}
+
+						.left_3 {
+							display: flex;
+							margin-top: 20rpx;
+
+							.tixian,
+							.mingxi {
+								width: 78rpx;
+								height: 34rpx;
+								color: #fff;
+								font-size: 24rpx;
+								text-align: center;
+								line-height: 34rpx;
+								border-radius: 10rpx;
+							}
+
+							.tixian {
+								background-color: #FF0000;
+							}
+
+							.mingxi {
+								color: #666666;
+								border: 2rpx solod #666666;
+								margin-left: 39rpx;
+							}
+						}
+					}
+
+					.right {
+						image {
+							margin-top: 14rpx;
+							width: 110rpx;
+							height: 140rpx;
+						}
+					}
+				}
+
+				.bottom {
+					margin: 0 32rpx;
+					border-top: 2rpx solid #D8D6D6;
+					display: flex;
+					justify-content: space-between;
+					padding-top: 34rpx;
+
+					.left,
+					.right {
+						text-align: center;
+
+						&.left {
+							padding-left: 80rpx;
+						}
+
+						&.right {
+							padding-right: 80rpx;
+						}
+
+						view:nth-of-type(1) {
+							color: #666666;
+							font-size: 24rpx;
+						}
+
+						view:nth-of-type(2) {
+							color: #333333;
+							font-size: 28rpx;
+							padding-top: 12rpx;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.isShow {
+		position: absolute;
+		top: 560rpx;
+		width: 100%;
+	}
+
+	.service {
+		padding: 0 70rpx;
+		margin-top: 15rpx;
+		background-color: #fff;
+
+		.service_item {
+			padding: 35rpx 0;
+			border-bottom: 2rpx solid #e1e1e1;
+			font-size: 30rpx;
+			color: #666;
+			display: flex;
+
+			image {
+				width: 40rpx;
+				height: 40rpx;
+				margin-right: 80rpx;
+			}
+
+			&:nth-last-of-type(1) {
+				border-bottom: none;
+			}
+		}
+	}
+
+	.login_res {
+		padding-top: 14rpx;
+		font-size: 34rpx;
+		color: #333;
+	}
+
+	.shangjia_xioafeizhe {
+		position: absolute;
+		width: 140rpx;
+		height: 38rpx;
+		z-index: 555;
+		right: 0;
+		top: 90rpx;
+
+		image {
+			width: 100%;
+			height: 100%;
+
+		}
+	}
